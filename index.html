@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gifasaurusrex</title>
+   
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Javascript game.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            TerGIFic
+        </a>
+        <form class="form-inline" id= "gif-form">
+            <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" id="add-gif" type="submit">Search</button>
+        </form>
+    </nav>
+    
+    <div class="container">
+
+    <!-- gif buttons -->
+        <div class="card">
+            <div class="card-body">
+                <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group" role="group" aria-label="First group">
+                        <div id="gifbuttons"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+    <!-- gifs will show here-->
+        <div class="card w-100">
+            <div class="card-body">
+                <h5 class="card-title">Gif Results</h5>
+                <p class="card-text">Click each gif to animate or freeze!</p>
+                    <div class="row" id="gifview"></div>
+            </div>
+        </div>
+        
+    </div>
+
+  <footer class="footer">
+    <div class="container">
+        <a href="#">
+        <img src="assets/images/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif" height="30" class="d-inline-block align-top" alt="Powered By Giphy Logo">
+    </a>
+    </div>
+</footer>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>

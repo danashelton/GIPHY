@@ -1,0 +1,22 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    line-height: 40px; /* Vertically center the text there */
+    background: #343a40;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
